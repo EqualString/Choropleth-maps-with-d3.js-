@@ -1,0 +1,10 @@
+
+/** Zasebni stil za EPP **/
+
+#legend p {
+	color: #081900;
+}
+#cssmenu ul li ul li:hover > a,
+#cssmenu ul li ul li.active > a {
+	color: #38AFFF;
+}

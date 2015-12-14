@@ -1,0 +1,13 @@
+
+/** Zasebni stil za S&D **/
+
+#legend p {
+	color: #27000D;
+}
+#cssmenu {
+	background: #cb181d;
+}
+#cssmenu ul li ul li:hover > a,
+#cssmenu ul li ul li.active > a {
+	color: #cb181d;
+}

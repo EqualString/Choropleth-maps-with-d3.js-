@@ -1,0 +1,13 @@
+
+/** Zasebni stil za EPP i S&D **/
+
+#legend p {
+	color: #A09F9F;
+}
+#cssmenu {
+	background: #CEC8B3;
+}
+#cssmenu ul li ul li:hover > a,
+#cssmenu ul li ul li.active > a {
+	color: #CEC8B3;
+}

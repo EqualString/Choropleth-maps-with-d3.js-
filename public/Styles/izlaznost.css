@@ -1,0 +1,13 @@
+
+/** Zasebni stil za izlaznost **/
+
+#legend p {
+	color: #003112;
+}
+#cssmenu {
+	background: #238b45;
+}
+#cssmenu ul li ul li:hover > a,
+#cssmenu ul li ul li.active > a {
+	color: #41ab5d;
+}

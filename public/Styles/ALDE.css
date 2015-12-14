@@ -1,0 +1,13 @@
+
+/** Zasebni stil za ALDE **/
+
+#legend p {
+	color: #082506;
+}
+#cssmenu {
+	background: #fe9929;
+}
+#cssmenu ul li ul li:hover > a,
+#cssmenu ul li ul li.active > a {
+	color: #EDB400;
+}

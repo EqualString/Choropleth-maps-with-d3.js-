@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+        <title>Rezultati 2014 - EPP i S&D</title>
+		<link rel="shortcut icon" href="Logos/page.ico">
+		<meta name="author" content="Alen Egredžija">
+		<meta name="keywords" content="EU, d3, Vizualizacija" />
+		<meta name="description" content="Vizualizacija rezultata za vodeće stranke na EU izborima 2014">
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Stilovi -->
+		<link rel='stylesheet' type='text/css' href='Styles/style.css'/>
+		<link rel='stylesheet' type='text/css' href='Styles/zajedno.css' />
+		<link rel='stylesheet' type='text/css' href='Styles/preloader.css'/>
+		<!-- Skripte -->
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+		<script type='text/javascript' src='Scripts/menu_jquery.js'></script>
+		<script type='text/javascript' src="Scripts/d3.v3.min.js"></script>
+	</head>
+	<body>
+		<div id ="legend">
+			<table border = "0" cellspacing="2"  cellpadding="3">
+				<tr><td bgcolor="#214EB5" align="center"><p>EPP</p></td></tr>
+				<tr><td bgcolor="#ef3b2c" align="center"><p>S&D </p></td></tr>
+				<tr><td bgcolor="#EAE3CA" align="center"><p>Jednak broj zastupnika</p></td></tr>
+			</table>
+		</div>
+		<div id='cssmenu'>
+		<ul>
+		   <li class='has-sub'><a href='#'><span>Choroplets</span></a>
+			  <ul>
+				 <li><a href='izlaznost'><span>Izlaznost</span></a></li>
+				 <li class='has-sub'><a href='#'><span>Vodeće Europske Stranke</span></a>
+					<ul>
+					   <li><a href='EPP'><span>Europska pučka stranka (EPP)</span></a></li>
+					   <li><a href='S&D'><span>Progresivni savez socijalista i demokrata (S&D)</span></a></li>
+					   <li><a href='ALDE'><span>Savez liberala i demokrata za Europu (ALDE)</span></a></li>
+					</ul>
+				 <li class="active"><a href='zajedno'><span>EPP/S&D </span></a></li>
+				 </li>
+			  </ul>
+		   </li>
+		</ul>
+		</div>
+		<!-- SVG -->
+		<div id="map">
+			<!-- <svg>objekt</svg> -->
+		</div>
+		<div id="tooltip" class="hidden">
+			<p><strong>Država: <span id="country"></span></strong></p>
+			<p><span id="value"></span>, <span id="value2"></span> od mogućih <span id="value3"></span></p>
+		</div>
+    </body>
+	<!-- Preloader  -->
+	<script type="text/javascript" src="Scripts/royal_preloader.min.js"></script>
+	<!-- 'Main' skripta  -->
+	<script type='text/javascript' src="Scripts/main.js"></script>
+	<!-- Zasebna skripta za izlaznost -->
+	<script type='text/javascript' src="Scripts/sums.js"></script>	
+</html>

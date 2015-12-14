@@ -1,0 +1,12 @@
+{
+  "name": "EU Visualization",
+  "description": "EU Visualization with d3.js and SVG",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "~2.3.3",
+    "express": "~4.13.3"
+  }
+}
