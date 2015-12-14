@@ -1,5 +1,5 @@
 {
-  "name": "EU Visualization",
+  "name": "Choropleth-maps-with-d3.js-",
   "description": "EU Visualization with d3.js and SVG",
   "main": "server.js",
   "scripts": {
