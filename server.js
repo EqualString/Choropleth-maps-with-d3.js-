@@ -16,7 +16,7 @@ var fs = require('fs');
 var app = express();
 
 //Konfiguracija porta za aplikaciju (local & Heroku)
-var server_port = process.env.PORT || 5000
+var server_port = process.env.PORT || 5000 ;
 var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
 //Konfiguracija engine-a
