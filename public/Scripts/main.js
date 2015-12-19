@@ -85,3 +85,6 @@
 			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
 				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
 			} );
+			
+			//Postavlja scroller na bottom
+			$('html, body').animate({scrollTop:$(document).height()}, 'fast');
