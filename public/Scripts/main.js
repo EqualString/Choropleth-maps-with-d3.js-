@@ -17,7 +17,7 @@
 				if (error) {console.log(error); return;}
 				var svg = mapFragment.getElementsByTagName("svg")[0];
 				svgMap.node().appendChild(svg);
-			
+				
 				//Pozivanje zasebnih funkcija za sve države preko #id-a u svg elementu
 				d3.select("#be").on("mouseover",hover).on("mouseout",out).style("fill",Colorize);
 				d3.select("#dk").on("mouseover",hover).on("mouseout",out).style("fill",Colorize);

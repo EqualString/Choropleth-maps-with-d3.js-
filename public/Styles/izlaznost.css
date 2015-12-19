@@ -11,3 +11,7 @@
 #cssmenu ul li ul li.active > a {
 	color: #41ab5d;
 }
+#cssmenu ul li ul li:hover:after,
+#cssmenu ul li ul li.active:after {
+  background: #41ab5d;
+}

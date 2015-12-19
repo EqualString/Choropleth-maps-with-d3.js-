@@ -20,6 +20,10 @@ body {
   background-color: #aad2ff;	
   z-index:-1;
 }
+svg{
+  width: 125em;
+  height: 90em;
+}
 #legend {  
   position:absolute;
   width: auto;
@@ -60,8 +64,9 @@ body {
   font-size: 1em;
   line-height: 1.1em;
 }
+
+/** Css menu styles **/
 #cssmenu {
-  background: #034f96;
   margin: 1em;
   width: auto;
   padding: 0;
@@ -148,14 +153,7 @@ body {
   width: 140px;
   padding: 11px 10px 11px 20px;
 }
-#cssmenu ul li ul li:hover > a,
-#cssmenu ul li ul li.active > a {
-  color: #4cb6ea;
-}
-#cssmenu ul li ul li:hover:after,
-#cssmenu ul li ul li.active:after {
-  background: #4cb6ea;
-}
+
 #cssmenu ul li ul li:hover > ul {
   left: 170px;
   top: 0;
@@ -245,7 +243,89 @@ body {
   display: none;
 }
 
+/** Responsive **/
+
+@media screen and (max-width: 1680px) {
+    svg{
+		width: 110em;
+		height: 85em;
+	}
+	#legend {  
+		position:absolute;
+		width: auto;
+		top:23em;
+		left:12em;
+	}
+	#legend table {
+		width: 12em;
+		height: 10em;
+	}
 }
+@media screen and (max-width: 1400px) {
+    svg{
+		width: 95em;
+		height: 80em;
+	}
+	#legend {  
+		position:absolute;
+		width: auto;
+		top:23em;
+		left:4em;
+	}
+	#legend table {
+		width: 12em;
+		height: 10em;
+	}
+}
+@media screen and (max-width: 1366px) {
+    svg{
+		width: 90em;
+		height: 80em;
+	}
+	#legend {  
+		position:absolute;
+		width: auto;
+		top:23em;
+		left:4em;
+	}
+	#legend table {
+		width: 12em;
+		height: 10em;
+	}
+}
+@media screen and (max-width: 1280px) {
+    svg{
+		width: 80em;
+		height: 80em;
+	}
+	#legend {  
+		position:absolute;
+		width: auto;
+		top:23em;
+		left:0em;
+	}
+	#legend table {
+		width: 12em;
+		height: 10em;
+	}
+}
+@media screen and (max-width: 1024px) {
+    svg{
+		width: 64em;
+		height: 70em;
+	}
+	#legend {  
+		position:absolute;
+		width: auto;
+		top:18em;
+		left:0em;
+	}
+	#legend table {
+		width: 6em;
+		height: 2em;
+	}
+}
+
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
   #cssmenu > ul {
     max-height: 0;

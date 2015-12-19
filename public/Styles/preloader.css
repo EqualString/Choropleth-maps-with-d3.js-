@@ -2,12 +2,9 @@
 
 body.royal_loader {
 /* Fix ako se ne pokaze prvi*/
-    background: #33B5E5; 
 	z-index: -1;
     visibility: hidden;
-}
-#header{
-	display:none;
+	overflow-y: scroll;
 }
 #royal_preloader {
     font-size: 12px;

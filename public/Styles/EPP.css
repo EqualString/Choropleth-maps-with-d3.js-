@@ -4,7 +4,14 @@
 #legend p {
 	color: #081900;
 }
+#cssmenu {
+	background: #214EB5;
+}
 #cssmenu ul li ul li:hover > a,
 #cssmenu ul li ul li.active > a {
 	color: #38AFFF;
+}
+#cssmenu ul li ul li:hover:after,
+#cssmenu ul li ul li.active:after {
+  background: #38AFFF;
 }

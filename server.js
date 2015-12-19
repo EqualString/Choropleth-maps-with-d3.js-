@@ -11,13 +11,10 @@
 
 //Dopunski nodejs moduli
 var express = require('express');
-var assert = require('assert');
-var fs = require('fs');
 var app = express();
 
 //Konfiguracija porta za aplikaciju (local & Heroku)
-var server_port = process.env.PORT || 5000 ;
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+var server_port = process.env.PORT || 8080 ;
 
 //Konfiguracija engine-a
 app.engine('.html', require('ejs').__express);
