@@ -47,6 +47,9 @@
 				d3.select("#bg").on("mouseover",hover).on("mouseout",out).style("fill",Colorize);
 				d3.select("#ro").on("mouseover",hover).on("mouseout",out).style("fill",Colorize);
 				d3.select("#hr").on("mouseover",hover).on("mouseout",out).style("fill",Colorize);
+				
+				//Postavlja scroller na bottom
+				$('html, body').scrollTop($(document).height());
 	
 			});	
 			
@@ -85,4 +88,6 @@
 			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
 				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
 			} );
+			
+			
 			
