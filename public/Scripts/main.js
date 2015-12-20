@@ -86,5 +86,3 @@
 				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
 			} );
 			
-			//Postavlja scroller na bottom
-			$('html, body').animate({scrollTop:$(document).height()}, 'fast');

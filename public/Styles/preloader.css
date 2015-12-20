@@ -1,10 +1,11 @@
 /* #PAGE LOAD */
 
 body.royal_loader {
-/* Fix ako se ne pokaze prvi*/
+    /*Fix*/
 	z-index: -1;
     visibility: hidden;
-	overflow-y: scroll;
+	overflow: scroll;
+	overflow-x: hidden;
 }
 #royal_preloader {
     font-size: 12px;
