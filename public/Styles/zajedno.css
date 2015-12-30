@@ -1,6 +1,11 @@
 
 /** Zasebni stil za EPP i S&D **/
 
+body.royal_loader {
+    /*Fix za scroller*/
+	background: #CEC8B3;
+}
+
 #legend p {
 	color: #A09F9F;
 }

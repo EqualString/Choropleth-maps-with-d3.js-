@@ -1,6 +1,11 @@
 
 /** Zasebni stil za ALDE **/
 
+body.royal_loader {
+    /*Fix za scroller*/
+	background: #fec44f;
+}
+
 #legend p {
 	color: #082506;
 }

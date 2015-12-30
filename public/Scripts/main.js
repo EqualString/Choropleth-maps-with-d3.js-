@@ -50,7 +50,7 @@
 				
 				//Postavlja scroller na bottom
 				$('html, body').scrollTop($(document).height());
-	
+
 			});	
 			
 			//Podaci, koji sadrže id države(ISO-3116-1-ALPHA2 code in lower case), 

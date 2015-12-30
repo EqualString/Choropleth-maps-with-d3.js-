@@ -2,10 +2,8 @@
 
 body.royal_loader {
     /*Fix*/
-	z-index: -1;
+	z-index: -999;
     visibility: hidden;
-	overflow: scroll;
-	overflow-x: hidden;
 }
 #royal_preloader {
     font-size: 12px;
@@ -84,7 +82,7 @@ body.royal_loader {
     position: absolute;
 	font-weight: 800;
     top: 50%;
-    left: 50%;
+    left: 50%; 
     height: 40px;
     line-height: 40px;
     margin-top: -20px;

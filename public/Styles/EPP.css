@@ -1,6 +1,11 @@
 
 /** Zasebni stil za EPP **/
 
+body.royal_loader {
+    /*Fix za scroller*/
+	background: #4273C6;
+}
+
 #legend p {
 	color: #081900;
 }
@@ -16,6 +21,7 @@
   background: #38AFFF;
 }
 
+/** Ne radi u firefox-u **/
 ::-webkit-scrollbar {
     width: 12px;
 }

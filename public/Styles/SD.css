@@ -1,6 +1,11 @@
 
 /** Zasebni stil za S&D **/
 
+body.royal_loader {
+    /*Fix za scroller*/
+	background: #ef3b2c;
+}
+
 #legend p {
 	color: #27000D;
 }
